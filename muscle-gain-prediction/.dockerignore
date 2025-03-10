@@ -1,0 +1,36 @@
+# Contents of the file: /muscle-gain-prediction/muscle-gain-prediction/.dockerignore
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore data directories
+data/raw/
+data/processed/
+
+# Ignore local configuration files
+*.local
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore logs
+*.log
+
+# Ignore any temporary files
+tmp/
+temp/
